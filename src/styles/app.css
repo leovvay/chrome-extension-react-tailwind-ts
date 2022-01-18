@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Reem+Kufi:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    min-width: 300px;
+    min-height: 310px;
+    display: flex;
+}
+
+textarea {
+    resize: none;
+}
+
